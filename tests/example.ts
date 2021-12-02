@@ -5,6 +5,7 @@ fixture('Getting Started')
 
 test('example test', async t => {
   await t
+  .debug()
   .expect(Selector('table tr td').textContent)
   .contains('world');
 })

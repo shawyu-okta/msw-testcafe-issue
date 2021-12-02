@@ -2,5 +2,6 @@
   "appCommand": "yarn start",
   "appInitDelay": 60000,
   "browsers": "chrome",
-  "concurrency": 1
+  "concurrency": 1,
+  "hostname": "localhost"
 }
