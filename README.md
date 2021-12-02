@@ -1,3 +1,14 @@
+# msw-testcafe-issue
+
+This repo is intended only to provide a minimal reproduction repository for an issue using `mswjs` with `testcafe` in "secure context" environments.
+
+This is done by setting `hostname: "localhost"` in the Testcafe configuration. Using a "secure context" is needed to access certain browser functionality, such as `window.crypto.subtle`.
+
+Here is a screenshot showing the error msw displays in the console when trying to run within testcafe configured with secure context:
+
+![screenshot of msw showing an error in console, unable to mock in testcafe](./assets/msw-error-in-secure-context.png)
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
