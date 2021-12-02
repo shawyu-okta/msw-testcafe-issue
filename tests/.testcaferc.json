@@ -1,0 +1,6 @@
+{
+  "appCommand": "yarn start",
+  "appInitDelay": 60000,
+  "browsers": "chrome",
+  "concurrency": 1
+}
