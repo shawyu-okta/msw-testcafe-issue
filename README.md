@@ -15,6 +15,11 @@ Here is a screenshot showing the error msw displays in the console when trying t
 1.  Wait until server starts and testcafe window enters the debug state
 1. 'Unlock page' and open console
 
+**Related links**
+
+* https://github.com/mswjs/msw/issues/335
+* https://github.com/mswjs/msw/pull/351
+
 
 # Getting Started with Create React App
 
