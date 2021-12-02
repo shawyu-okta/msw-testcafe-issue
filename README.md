@@ -8,6 +8,13 @@ Here is a screenshot showing the error msw displays in the console when trying t
 
 ![screenshot of msw showing an error in console, unable to mock in testcafe](./assets/msw-error-in-secure-context.png)
 
+**To reproduce the scenario shown in the screenshot:**
+
+1. `yarn install`
+1. `yarn run test:e2e`
+1.  Wait until server starts and testcafe window enters the debug state
+1. 'Unlock page' and open console
+
 
 # Getting Started with Create React App
 
